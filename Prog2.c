@@ -15,19 +15,19 @@ int main(){
     
     printf("Valor X + Y = %d \n",soma);
 
-    printf("Qual o valor maior X ou Y? \n");
+    //printf("Qual o valor maior X ou Y? \n")//
 
-    if (ValorX > ValorY)
+    if (ValorX == ValorY)
     {
-        printf("o numero X e maior que o numero Y \n");
+        printf("Ambos os valores de X e Y sao iguais \n");
     }
-    else if (ValorY < ValorX)
+    else if (ValorY > ValorX)
     {
         printf("O numero Y e maior que o numero X \n");
     }
     else
     {
-        printf("Ambos os valores de X e Y sao iguais \n");
+        printf("O numero X e maior que o numero Y \n");
     }
     return 0;
     
