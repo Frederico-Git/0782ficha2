@@ -21,7 +21,7 @@ int main(){
     {
         printf("o numero X e maior que o numero Y \n");
     }
-    else if (ValorY > ValorX)
+    else if (ValorY < ValorX)
     {
         printf("O numero Y e maior que o numero X \n");
     }
