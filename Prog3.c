@@ -13,23 +13,31 @@
 
         if (Menu == 1)
         {   
+            printf("Euro? \n");
+            scanf("%f" ,&Euro);
             final = Euro * Dollar;
-            printf("%0.1 fEuro e %0.1 fDollar", Euro,Dollar);
+            printf("Valor em dolares e: %0.1f Dollar \n", final);
         }
         else if (Menu == 2)
         {
-            final = Dollar * Euro;
-            printf("%0.1 fDollar e %0.1 fEuro", Dollar,Euro);
+            printf("Dollar? \n");
+            scanf("%f", &Dollar);
+            final = Dollar / Euro;
+            printf("Valor em Euros e: %0.1f Euro \n", final);
         }
         else if (Menu == 3)
         {
+            printf("Euro? \n");
+            scanf("%f", &Euro);
             final = Euro * CAD;
-            printf("%0.1 fEuro e %0.1 fCAD",Euro,CAD);
+            printf("Valor em CAD e: %0.1f CAD \n",final);
         }
         else if (Menu == 4)
         {
-            final = CAD * Euro;
-            printf("%0.1 fCAD e %0.1 fEuro", CAD,Euro);
+            printf("CAD? \n");
+            scanf("%f", &CAD);
+            final = CAD / Euro;
+            printf("Valor em Euros sao: %0.1f Euro \n", final);
         }
         else
         {
